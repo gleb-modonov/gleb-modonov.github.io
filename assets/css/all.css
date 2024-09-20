@@ -1150,6 +1150,7 @@ carbon-piece {
     width: calc( 49% + 8px );
     display: inline-block;
 }
+
 carbon-piece object {
   display: block;
   width: 100%;
@@ -1809,4 +1810,25 @@ carbon-paginator .inner:after {
   line-height: 0;
   height: 0;
   overflow: hidden;
+}
+
+.row-custom {
+  display: flex;
+}
+
+.column-custom {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.image-custom {
+  width:100%;
+}
+
+.iframe-custom
+{
+  width: 100%;
+  /*height: 100%;*/
+  /*height: 315px;*/
+  min-height: 500px;
 }
